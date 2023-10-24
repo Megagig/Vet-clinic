@@ -7,3 +7,7 @@ CREATE TABLE animals(id integer NOT NULL default nextval('seq_id'),
  neutered boolean,
  weight_kg decimal,
  primary key(id));
+
+/* Add a column species of type string to your animals table. */
+
+ ALTER TABLE animals ADD COLUMN species VARCHAR(50);
