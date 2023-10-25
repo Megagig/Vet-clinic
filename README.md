@@ -110,6 +110,13 @@ No tests here...
 - LinkedIn: [Anthony Obi](https://www.linkedin.com/in/obi-anthony-440a1430/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--Future Features-->
+
+## 🤝 Future Features <a name="Future Features"></a>
+
+1. Performance audit
+2. Decode Morse meaasge
+3. Create Enumerable
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
