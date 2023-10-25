@@ -18,3 +18,9 @@ CREATE TABLE owners (
   full_name VARCHAR(255),
   age INTEGER
 );
+
+--Create Table Named species
+CREATE TABLE species (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255)
+);
