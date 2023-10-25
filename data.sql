@@ -30,6 +30,10 @@ VALUES
     ('Dean Winchester', 14),
     ('Jodie Whittaker', 38);
 
+    INSERT INTO species (name) VALUES
+    ('Pokemon'),
+    ('Digimon');
+
     UPDATE animals a
 SET species_id = s.id
 FROM species s
