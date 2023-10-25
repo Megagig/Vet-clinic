@@ -11,3 +11,10 @@ CREATE TABLE animals(id integer NOT NULL default nextval('seq_id'),
 /* Add a column species of type string to your animals table. */
 
  ALTER TABLE animals ADD COLUMN species VARCHAR(50);
+
+ --Create Table Named owners
+CREATE TABLE owners (
+  id SERIAL PRIMARY KEY,
+  full_name VARCHAR(255),
+  age INTEGER
+);
