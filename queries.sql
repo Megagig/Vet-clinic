@@ -149,4 +149,5 @@ FROM owners o
 JOIN animals a ON o.id = a.owner_id
 GROUP BY o.full_name
 ORDER BY COUNT(a.id) DESC
-LIMIT 1;
+
+
