@@ -77,3 +77,7 @@ EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
 -- Second Query
 CREATE INDEX ver_id_index ON visits(vet_id) INCLUDE ( animal_id, visits_date) WHERE vet_id=2;
 EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+
+--Third Query
+CREATE INDEX email_index ON owners(email);
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
