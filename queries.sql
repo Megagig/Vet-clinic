@@ -305,3 +305,9 @@ ORDER BY
     COUNT(a.species_id) DESC
 LIMIT
     1;
+
+    --performance audit
+    -- Use EXPLAIN ANALYZE on the previous queries to check what is happening. Take screenshots of them - they will be necessary later.
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
