@@ -57,3 +57,19 @@ CREATE TABLE visits (
     date_of_visit DATE,
     PRIMARY KEY (animals_id, vets_id, date_of_visit)
 );
+
+----------------------------------------------------------    
+/* 5-- Database performance Audit */
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- Use EXPLAIN ANALYZE on the previous queries to check what is happening. Take screenshots of them - they will be necessary later.
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+
+--First query
+CREATE INDEX index_animal ON visits(animal_id);
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
