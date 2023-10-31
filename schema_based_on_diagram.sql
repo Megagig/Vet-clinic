@@ -35,3 +35,20 @@ FOREIGN KEY (invoice_id) REFERENCES invoices (id),
 FOREIGN KEY (treatment_id) REFERENCES treatments (id)
 );
 
+CREATE INDEX invoice_treatment_id_index ON invoice_items(invoice_id, treatment_id);
+
+CREATE TABLE treatments (
+id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+type VARCHAR(50),
+name VARCHAR(50)
+);
+
+
+CREATE TABLE treatments_histories (
+medical_histories_id INT,
+treatments_id INT,
+FOREIGN KEY (medical_histories_id) REFERENCES medical_histories (id),
+FOREIGN KEY (treatments_id) REFERENCES treatments(id)
+);
+
+CREATE INDEX medical_histories_treatment_id_index ON treatments_histories(medical_histories_id, treatments_id);
