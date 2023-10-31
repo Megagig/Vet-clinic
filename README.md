@@ -77,7 +77,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone https://github.com/danielsafari143/vet-clinic/
+- git clone https://github.com/megagig/vet-clinic/
 
 ### Install
 
