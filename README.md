@@ -75,7 +75,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone https://github.com/megagig/vet-clinic/
+- git clone https://github.com/danielsafari143/vet-clinic/
 
 ### Install
 
@@ -147,5 +147,3 @@ I would like to express my sincere gratitude to my coding partners for their unw
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<img width="724" alt="vet_clinic" src="https://github.com/Megagig/Vet-clinic/assets/108594742/b5ccd473-a751-4297-866d-a190e96b2443">
