@@ -1,3 +1,5 @@
+![Alt text](TurningpointcodeLogo.png)
+
 ## Getting Started
 
 <a name="readme-top"></a>
