@@ -22,3 +22,5 @@ payed_at TIMESTAMP ,
 medical_history_id INT,
 FOREIGN KEY (medical_history_id) REFERENCES medical_histories (id));
 
+CREATE INDEX medical_histories__id_index ON invoices(medical_history_id);
+
