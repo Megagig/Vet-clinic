@@ -1,5 +1,8 @@
 ![Alt text](TurningpointcodeLogo.png)
 
+<img width="724" alt="vet_clinic" src="https://github.com/Megagig/Vet-clinic/assets/108594742/7ea5ba82-9598-4528-9b96-469e8ab262da">
+
+
 ## Getting Started
 
 <a name="readme-top"></a>
